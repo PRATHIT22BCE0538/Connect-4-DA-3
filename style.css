@@ -93,6 +93,13 @@ body {
   outline: none;
   border-radius: 2em;
   cursor: pointer;
+  transition: .8s ease;
+}
+.startScreen button:hover
+{
+  transform: scale(1.5);
+  background-color: black;
+  color: white;
 }
 .grid-row {
   margin: 0 auto;
